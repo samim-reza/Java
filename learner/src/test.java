@@ -1,23 +1,12 @@
-class A{
+import java.util.Scanner;
 
-    void met()
-    {
-        System.out.println("A");
-    }
-     int i;
-     static void nme(){
-          i=00;
-
-    }
-}
-class B extends A{
-    void met(){
-        System.out.println("B");
-    }
-}
 public class test{
     public static void main(String[] args) {
-        A s=new B();
-        s.met();
+        Scanner sc=new Scanner(System.in);
+        int x,y,z;
+        x=sc.nextInt();
+        y=sc.nextInt();
+        z=sc.nextInt();
+        System.out.println(x+y+z);
     }
 }
